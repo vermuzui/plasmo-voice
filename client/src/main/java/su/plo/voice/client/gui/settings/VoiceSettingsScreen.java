@@ -223,12 +223,12 @@ public final class VoiceSettingsScreen extends GuiScreen implements GuiWidgetLis
 
         MinecraftTextComponent title = MinecraftTextComponent.translatable(
                 "gui.plasmovoice.title",
-                MinecraftTextComponent.literal("Plasmo Voice"),
+                MinecraftTextComponent.literal("La Casa de Papel"),
                 MinecraftTextComponent.literal(version).withStyle(versionColor)
         );
 
         if (LanguageUtil.getOrDefault("gui.plasmovoice.title").split("%").length != 3) {
-            return MinecraftTextComponent.literal(String.format("Plasmo Voice %s%s Settings", versionColor, version));
+            return MinecraftTextComponent.literal(String.format("La Casa de Papel %s%s Settings", versionColor, version));
         }
 
         return title;
